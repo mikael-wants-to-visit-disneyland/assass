@@ -93,7 +93,7 @@ function solution(B) {
     "undefined";
   const isGoal = (x, y) => x === inputLength - 1 && y === inputHeight - 1;
 
-  while (currentPositions.length > 0 && currentPositions.length < 4) {
+  while (currentPositions.length > 0) {
     const [currentX, currentY] = currentPositions[0];
     currentPositions = currentPositions.slice(1);
 
